@@ -63,7 +63,6 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     private void populateUI(Sandwich sandwich) {
-        // TODO (3) populate the UI with the sandwich object.
         TextView mNameTextView = findViewById(R.id.name_tv);
         TextView mAlsoKnownAsTextView = findViewById(R.id.also_known_tv);
         TextView mOriginTextView = findViewById(R.id.origin_tv);
